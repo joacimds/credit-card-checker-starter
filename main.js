@@ -88,6 +88,7 @@ const convertToArray = credString => {
     console.log(credArray);
 }
 
+// TODO: Create a function that will convert invalid numbers into valid numbers. 
 
 
 
