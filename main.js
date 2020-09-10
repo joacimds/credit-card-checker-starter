@@ -53,7 +53,6 @@ const findInvalidCard = nestedArray => {
   return invalidArrays;
 }
 
-
 const idInvalidCardCompanies = nestedArray => {
     let companies = [];
     for (let i = 0; i < nestedArray.length; i++) {
@@ -83,6 +82,13 @@ const idInvalidCardCompanies = nestedArray => {
         }
     }
 }
+
+const convertToArray = credString => {
+    let credArray = credString.split('').map(Number);
+    console.log(credArray);
+}
+
+
 
 
 
